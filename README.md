@@ -18,30 +18,30 @@ With this CLI app you can:
 
 # How to use
 
-Download tdl.py and todo.py. Make sure to install 'tabulate' module.
+Download tdl.py and todo.py. Make sure to install '''tabulate''' module.
 Run by using:
-'python todo.py <command> [arguments]'
+'''python todo.py <command> [arguments]'''
 
 # Commands
 
 Add a new task
-'python todo.py add "buy cat food"'
+'''python todo.py add "buy cat food"'''
 Update task description
-'python todo.py update-task 1 "buy groceries"'
+'''python todo.py update-task 1 "buy groceries"'''
 Delete a task
-'python todo.py delete 1'
+'''python todo.py delete 1'''
 Update task status
-'python todo.py update-status 1 done'
-'python todo.py update-status 1 in-progress'
-'python todo.py update-status 1 todo'
+'''python todo.py update-status 1 done'''
+'''python todo.py update-status 1 in-progress'''
+'''python todo.py update-status 1 todo'''
 List all tasks
-'python todo.py list'
+'''python todo.py list'''
 List tasks by status
-'python todo.py list todo'
-'python todo.py list in-progress'
-'python todo.py list done'
+'''python todo.py list todo'''
+'''python todo.py list in-progress'''
+'''python todo.py list done'''
 Help
-'python todo.py -help'
+'''python todo.py -help'''
 
 https://roadmap.sh/projects/task-tracker
 
